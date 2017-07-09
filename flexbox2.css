@@ -1,0 +1,42 @@
+body {
+  margin: 0 25px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 800px;
+  width: 100%;
+}
+
+.header {
+  height: 150px;
+  width: 100%;
+  background-color: #9575cd;
+  border: 2px solid black;
+}
+
+.row {
+  display: inline-flex;
+  justify-content: space-between;
+  height: 600px;
+  width: 100%;
+}
+
+.column {
+  width: 31%;
+  border: 2px solid black;
+}
+
+.left {
+  background-color: #e57373;
+}
+
+.center {
+  background-color: #a5d6a7;
+}
+
+.right {
+  background-color: #ff9800;
+}

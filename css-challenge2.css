@@ -1,0 +1,43 @@
+body {
+	font-family: Verdana;
+	background: SandyBrown;
+}
+
+#wrap {
+	width: 70%;
+	border: 5px dotted black;
+	margin: 0 auto;
+	background: PaleGoldenRod;
+}
+
+h1 {
+	display: inline-block;
+	width: 100%;
+	border-bottom: 5px dotted black;
+	text-align: center;
+	font-style: italic;
+	margin: 0;
+}
+
+p {
+	padding: 0 20px;
+}
+
+ul {
+	text-align: center;
+	list-style-position: inside;
+	list-style: none;
+}
+
+li {
+	font-style: italic;
+}
+
+li::first-letter {
+	font-size: 24px;
+}
+
+.copyright {
+	font-size: small;
+	text-align: center;
+}
