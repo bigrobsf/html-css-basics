@@ -101,6 +101,10 @@ input[type="submit"] {
   font-size: 20px;
 }
 
+.nav-left a, .nav-right a {
+  color: #666666;
+}
+
 .nav-left {
   float: left;
   width: 50%;
@@ -109,7 +113,6 @@ input[type="submit"] {
 .nav-left a {
   padding-left: 27px;
   line-height: 40px;
-  color: #666666;
 }
 
 .nav-right {
@@ -121,5 +124,4 @@ input[type="submit"] {
 .nav-right a {
   padding-right: 27px;
   line-height: 40px;
-  color: #666666;
 }

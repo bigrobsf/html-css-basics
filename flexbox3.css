@@ -29,13 +29,12 @@ img {
   justify-content: space-between;
 }
 
-.image {
+.image, .column {
   width: 31%;
 }
 
 .column {
   height: 250px;
-  width: 31%;
 }
 
 .left {
